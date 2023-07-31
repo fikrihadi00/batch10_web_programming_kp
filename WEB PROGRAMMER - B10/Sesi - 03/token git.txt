@@ -1,0 +1,10 @@
+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
+
+1. berada di folder materi
+2. membuat repo
+3. generate token
+4. menuju repo, copy command line yang paling atas dan di paste ke gitbase dengan syarat berada dalam folder materi
+5. untuk menambahkan data
+git add .
+git commit -m "berisi komentar untuk push data"
+git push

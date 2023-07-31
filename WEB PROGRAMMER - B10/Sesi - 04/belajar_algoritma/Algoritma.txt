@@ -1,0 +1,24 @@
+1. ALGORITMA 
+
+2. Untuk menghitung luas dan keliling lingkaran memerlukan jari jari dengan rumus seperti berikut.
+	Luas Lingkaran (A):
+	A = pi*r2
+	Keliling Lingkaran :
+	K = 2pi * r
+	
+3. Langkah Kalkulasi
+	1. Masukkan nilai jari-jari dari lingkaran
+	2. Baca nilai jari-jari
+	3. Hitung luas lingkaran menggunakan rumus (A)
+	4. Hitung keliling lingkaran menggunakan rumus (K)
+	
+4. Intruksi untuk tampilkan hasil kalkulasi
+	1. Jika r = 7
+	2. Hitung luas lingkaran (A) menggunakan rumus: A = pi*r2
+		A = 3.14 7 * 7
+		A = 3.14 * 49
+		A ≈ 153.86
+
+	3. Hitung keliling lingkaran (K) menggunakan rumus: K = 2 * pi* r
+		K = 2 * 3.14 * 7
+		K ≈ 43.96

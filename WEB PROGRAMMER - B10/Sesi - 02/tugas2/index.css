@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+#social-media .navbar {
+  background-color: red;
+  display: inline;
+  float: left;
+  display: block;
+}

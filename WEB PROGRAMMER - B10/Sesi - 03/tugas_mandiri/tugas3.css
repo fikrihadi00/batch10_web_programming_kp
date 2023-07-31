@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+  transition: 0.5s;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* tambahkan CSS untuk section profile disini */
+#sectionsatu {
+  background-color: white;
+  display: flex;
+}
+section #profile {
+  display: flex;
+  margin-right: 1rem;
+  padding: 1rem;
+}
+section #profile .profile-photo {
+  clip-path: circle(50%);
+  margin-right: 1rem;
+}
+section #profile .profile-text h1 {
+  line-height: 1rem;
+}
+section #profile .profile-text h2 {
+  font-size: 12px;
+  opacity: 40%;
+}
+section #profile .profile-text .action button {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: blue;
+  color: white;
+}
+section #profile .profile-text .action button:hover {
+  background-color: white;
+  cursor: pointer;
+  color: green;
+  border-color: green;
+  transition: 0.2s;
+}
+
+section #detail {
+  display: flex;
+  align-items: center;
+}
+section #detail td {
+  padding: 1rem 6px;
+}
+#submit {
+  padding: 6px;
+}

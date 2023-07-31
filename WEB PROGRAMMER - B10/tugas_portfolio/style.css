@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  box-shadow: -10px -10px 20px 0px #424242;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+.navbar li {
+  float: right;
+}
+.navbar li a {
+  display: block;
+  color: rgb(99, 99, 99);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar li a:hover {
+  transition: 0.3s;
+  background-color: rgb(99, 99, 99);
+  color: whitesmoke;
+}
+
+.box {
+  background-color: whitesmoke;
+  height: 12rem;
+  margin: 3rem 1rem;
+}
+.box .profile img {
+  float: left;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100%;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+}
