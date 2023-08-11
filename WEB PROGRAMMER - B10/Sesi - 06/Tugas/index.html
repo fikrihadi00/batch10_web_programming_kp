@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Sesi 06</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Teks Konten -->
+    <div class="name">
+      <h1>Fikri Hadi</h1>
+      <h2>INPG-PKJ-10-49</h2>
+    </div>
+    <p id="p1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quaerat
+      recusandae qui ullam eaque cumque ea fugit, debitis commodi ipsum illo
+      dolorum consequatur sed laudantium suscipit quis magni, maiores in?
+    </p>
+    <p id="p2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quaerat
+      recusandae qui ullam eaque cumque ea fugit, debitis commodi ipsum illo
+      dolorum consequatur sed laudantium suscipit quis magni, maiores in?
+    </p>
+    <p id="p3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quaerat
+      recusandae qui ullam eaque cumque ea fugit, debitis commodi ipsum illo
+      dolorum consequatur sed laudantium suscipit quis magni, maiores in?
+    </p>
+
+    <script>
+      var interval, timeout;
+      var p1 = document.getElementById("p1");
+      var p2 = document.getElementById("p2");
+      var p3 = document.getElementById("p3");
+
+      ubahWarna();
+      function ubahWarna() {
+        interval = setInterval(warnaTeks, 600);
+        timeout = setTimeout(berhenti, 6000);
+      }
+
+      function warnaTeks() {
+        p1.style.color = p1.style.color == "red" ? "black" : "red";
+        p2.style.color = p2.style.color == "green" ? "black" : "green";
+        p3.style.color = p3.style.color == "blue" ? "black" : "blue";
+      }
+
+      function berhenti() {
+        if (interval) {
+          clearInterval(interval);
+          console.log("clear interval");
+        }
+        if (timeout) {
+          clearInterval(timeout);
+          console.log("clear timeout");
+        }
+      }
+    </script>
+  </body>
+</html>

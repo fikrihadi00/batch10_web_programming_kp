@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar tipedata JS</title>
+  </head>
+  <body>
+    <h1>Belajar Tipe Data di JS</h1>
+    <!-- tipedata number-->
+    <h2>Tipe Data Number di JS</h2>
+    <div id="hasil_angka"></div>
+    <!-- tipedata string-->
+    <h2>Tipe Data String di JS</h2>
+    <div id="hasil_string"></div>
+    <!-- tipedata array-->
+    <h2>Tipe Data Array di JS</h2>
+    <div id="hasil_array"></div>
+    <!-- tipedata object-->
+    <h2>Tipe Data Object di JS</h2>
+    <div id="hasil_object"></div>
+
+    <script>
+      var angka = 80;
+      var kalimat = "Belajar JS di Workshop WFDB";
+      var transport = ["Mobil", "Motor", "Pesawat", "Kapal"];
+      var manusia = {
+        nama: "Wijaya",
+        asal: "Jakarta",
+        usia: 26,
+      };
+
+      document.getElementById("hasil_angka").innerHTML = angka;
+      document.getElementById("hasil_string").innerHTML = kalimat;
+      document.getElementById("hasil_array").innerHTML = transport[1];
+      document.getElementById("hasil_array").innerHTML = transport[3];
+      document.getElementById("hasil_object").innerHTML =
+        manusia.nama + " tinggal di " + manusia.asal;
+    </script>
+  </body>
+</html>

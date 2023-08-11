@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Event</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--
+    <button id="tombol" onclick="ubahText()">Klik aku</button>
+
+    <script>
+      function ubahText() {
+        document.getElementById("tombol").innerHTML = "Halo Fikri";
+      }
+    </script>
+    -->
+    <h1>Hitung Mundur Maju</h1>
+    <button id="kurang">-</button>
+    <span id="nilai">0</span>
+    <button id="tambah">+</button>
+
+    <script>
+      // Mengambil referensi ke tombol plus dan minus, serta elemen span untuk menampilkan nilai
+      const kurang = document.getElementById("kurang");
+      const tambah = document.getElementById("tambah");
+      const nilaiAwal = document.getElementById("nilai");
+
+      // Inisialisasi nilai awal
+      let nilai = 0;
+
+      // Tambahkan event listener untuk tombol minus
+      kurang.addEventListener("click", function () {
+        nilai--;
+        updateNilai();
+      });
+
+      // Tambahkan event listener untuk tombol plus
+      tambah.addEventListener("click", function () {
+        nilai++;
+        updateNilai();
+      });
+
+      // Fungsi untuk memperbarui nilai yang ditampilkan pada elemen span
+      function updateNilai() {
+        nilaiAwal.textContent = nilai;
+      }
+    </script>
+  </body>
+</html>

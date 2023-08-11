@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Poppins:wght@300;400;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  color: rgb(99, 99, 99);
+}
+
+h1,
+h2 {
+  text-align: center;
+  background-color: aliceblue;
+  border-style: none;
+}
+h2 {
+  font-size: 1.1rem;
+}
+#p1,
+#p2,
+#p3 {
+  margin: 1rem auto;
+  text-align: center;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tugas 5</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h2>Implementasi Looping Sesi 5</h2>
+    <div class="form">
+      <label for="inputText">Masukkan Teks:</label>
+      <input type="text" id="inputText" />
+      <label for="loopCount">Jumlah Loop:</label>
+      <input type="number" id="loopCount" />
+    </div>
+    <button onclick="loopText()">Print</button>
+
+    <br />
+    <div id="outputText"></div>
+
+    <script>
+      function loopText() {
+        const inputText = document.getElementById("inputText").value;
+        const loopCount = parseInt(document.getElementById("loopCount").value);
+        let outputText = "";
+
+        for (let i = 0; i < loopCount; i++) {
+          outputText += i + 1 + ". " + inputText + "<br>";
+        }
+
+        document.getElementById("outputText").innerHTML = outputText;
+      }
+    </script>
+  </body>
+</html>

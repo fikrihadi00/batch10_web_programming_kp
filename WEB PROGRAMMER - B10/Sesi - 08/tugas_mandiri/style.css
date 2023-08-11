@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Poppins:wght@300;400;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.header {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 20px;
+  background-color: aliceblue;
+}
+.header .profile img {
+  height: 10rem;
+  width: 10rem;
+  vertical-align: middle;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header .desc {
+  max-width: 500px;
+}
+.header .desc h2 {
+  line-height: 8px;
+}
+.header .desc h3 {
+  line-height: 2rem;
+  font-size: 18px;
+  opacity: 60%;
+  font-weight: 100;
+}
+.header .desc p {
+  line-height: 1rem;
+  font-weight: 300;
+}
+.navbar .navbarlink {
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+.navbar .navbarlink a {
+  text-decoration: none;
+  color: black;
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90vh;
+  align-items: start;
+  justify-content: center;
+}
+.content .pengalaman {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.content .pengalaman h2 {
+  margin-bottom: 1rem;
+}
+.content .pengalaman .bar {
+  margin-bottom: 1rem;
+}
+.content .pengalaman span {
+  opacity: 60%;
+}
+.content .pendidikan {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.content .pendidikan h2 {
+  margin-bottom: 1rem;
+}
+.content .pendidikan .bar {
+  margin-bottom: 1rem;
+}
+.content .pendidikan span {
+  opacity: 60%;
+}
+.content .keahlian {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.content .keahlian h2 {
+  margin-bottom: 1rem;
+}
+.content .keahlian .bar {
+  margin-bottom: 1rem;
+}
+.content .keahlian span {
+  opacity: 60%;
+}
+.footer {
+  height: 1.5rem;
+  background-color: whitesmoke;
+  font-weight: 700;
+  text-align: center;
+}
+.footer span {
+  color: rgb(226, 147, 1);
+  font-weight: 500;
+}

@@ -1,0 +1,109 @@
+Codeshare logo
+ ShareSign UpLog In
+Session Expired. Click here to refresh.
+1
+nama repo : batch10_web_programming_kp
+2
+​
+3
+ketentuan :
+4
+setiap materi sesi-01 s.d sesi-08 di push di repo tugas/latihan
+5
+​
+6
+isikan :
+7
+kode peserta | nama lengkap | link github
+8
+1. INPG-PKJ-10-042 | Rama Wahyu Hermawan | https://github.com/ramawahyuu
+9
+2. INPG-PKJ-10-031 | Eky Putra Perdana   | https://github.com/Chuuuya
+10
+3. INPG-PKJ-10-015 | I Dewa Gede Ari Oka  | https://github.com/Arioka123
+11
+  > link repository | https://github.com/Arioka123/batch10_web_programming_kp_Idewagedearioka
+12
+4. INPG-PKJ-10-029 | Suluh Arwani | https://github.com/suluharwani
+13
+  > link repository | https://github.com/suluharwani/Prakerja
+14
+5. INPG-PKJ-10-026 | M Fatoni Anggris | https://github.com/fatonianggris
+15
+  > link repository | https://github.com/fatonianggris/KP-Hacktiv8.git
+16
+6. INPG-PKJ-10-046 | Fahri Saputra | https://github.com/FahriSaputra
+17
+  > link repository | https://github.com/FahriSaputra/batch10_web_programming_kp
+18
+7. INPG-PKJ-10-013 | Eka Septi Rahmawati | https://github.com/ekaaseptii
+19
+8. INPG-PKJ-10-049 | Fikri Hadi | https://github.com/fikrihadi00
+20
+9. INPG-PKJ-10-011 | Supriyadi | https://github.com/supriyadi121
+21
+> link repository |https://github.com/Supriyadi121/batch10_web_programming_kp
+22
+10.INPG-PKJ-10-010 | Kelvin Triyansyah | https://github.com/kelvintri
+23
+  > link repo | https://github.com/kelvintri/batch10_web_programming_kp
+24
+11. INPG-PKJ-10-018 | Iqbal Fahrozi | https://github.com/IqbalFahrozi
+25
+  > link repo | https://github.com/IqbalFahrozi/batch10_web_programming_kp
+26
+12. INPG-PKJ-10-036 | Edy Setiawan | https://github.com/edys96
+27
+13. INPG-PKJ-10-023 | Titus Gigih Trionggo | https://github.com/titusGT
+28
+  > link repo | https://github.com/titusGT/batch10_web_programming_kp
+29
+14. INPG-PKJ-002 | Bagus Bayu Prabowo | https://github.com/BagusBayuPrabowo
+30
+  > link repo | https://github.com/BagusBayuPrabowo/Batch10_Web-Programming-Prakerja_Hacktiv8
+31
+15. INGP-PKJ-0017 | Agus Gunawan | https://github.com/guzgnwn
+32
+  > link repo | https://github.com/guzgnwn/batch10_web_programming_kp_agusgunawan
+33
+16. INPG-PKJ-10-035|Muhammad Anang Fitriyono|https://github.com/Anangfyn
+34
+  > link repoitory https://github.com/Anangfyn/batch10_web_programming_kp.git
+35
+17. INPG-PKJ-10-014 | Ade Kurniawan | https://github.com/Sakumi19
+36
+  > Link Repo : https://github.com/Sakumi19/batch10_web_programming_kp
+37
+18.INPG-PKJ-10-027 |Dea Sunara |https://github.com/deasunara/Batch10_programming_kp_INPG-PKJ-10-037_DeaSunara
+38
+​
+39
+--------------------------------------------------------------------
+40
+----- pembelajaran tentang git -----
+41
+1. register (buat akun github.com) > login
+42
+2. setting token classic(use https saat clone github / remote github)
+43
+    - menuju ke profile setting
+44
+    -  link : https://github.com/settings/tokens
+45
+    - buka personal access tokens
+46
+        - pilih token (classic)
+47
+        - generate new token > pilih generate new token (classic)
+48
+        - isi nama token > checklist all
+49
+    note : dilakukan sekali saja 
+50
+            > ketentuan / batas waktu, jika habis generate ulang
+
+
+JOBS
+
+
+Hide Ads

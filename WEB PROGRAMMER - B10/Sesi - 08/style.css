@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Poppins:wght@300;400;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: antiquewhite;
+}
+
+#header {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header #leftHeader {
+  display: flex;
+  margin-left: 3rem;
+  gap: 1rem;
+  align-items: center;
+}
+#header #leftHeader a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: larger;
+}
+#header #leftHeader span {
+  opacity: 60%;
+  font-size: 0.8rem;
+}
+#header #rightHeader {
+  margin-right: 3rem;
+}
+#header #rightHeader ul li {
+  list-style: none;
+}
+#header #rightHeader ul li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 2rem;
+}
+#heroSection {
+  display: flex;
+  height: 85vh;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+#heroSection img {
+  min-width: 30rem;
+  height: 30rem;
+  display: inline-block;
+  border-radius: 50%;
+  object-fit: cover;
+}
+#heroSection #desc {
+  max-width: 550px;
+  align-items: center;
+}
+#heroSection #desc h1 {
+  font-size: 7rem;
+  letter-spacing: -4px;
+}
+#heroSection #desc h4 {
+  font-size: 1.8rem;
+  padding-bottom: 10px;
+}
+#heroSection #desc p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  max-width: 500px;
+}
+#heroSection #desc button {
+  background-color: whitesmoke;
+  width: 8rem;
+  height: 8rem;
+  margin-right: 18px;
+  border-radius: 50%;
+  border-style: none;
+  font-weight: 700;
+  font-size: large;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 2px 2px 16px #888888;
+  align-items: center;
+}
+#heroSection #desc button:nth-child(7) {
+  margin-left: 4.5rem;
+}
+hr {
+  margin-bottom: 2.3rem;
+}
+#footer {
+  line-height: 2rem;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  text-align: left;
+  padding: 0 3rem;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  align-items: end;
+}
+#footer #label {
+  font-weight: 700;
+}
+#footer a {
+  text-decoration: none;
+  color: black;
+  word-spacing: 5px;
+  font-size: 1.3rem;
+}
